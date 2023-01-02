@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="620_library_600x900.jpg" />
+    <None Remove="730_library_600x900.jpg" />
+    <None Remove="843380_library_600x900.jpg" />
+    <None Remove="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="620_library_600x900.jpg" />
+    <Resource Include="730_library_600x900.jpg" />
+    <Resource Include="843380_library_600x900.jpg" />
+    <Resource Include="favicon.ico" />
+  </ItemGroup>
+
+</Project>
